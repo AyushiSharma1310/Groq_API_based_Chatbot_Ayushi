@@ -28,7 +28,7 @@ if prompt:
     }
 
     body = {
-        "model": "llama3-8b-8192",  # or "llama3-8b-8192"
+        "model": "llama‑3.3‑70b‑versatile",  # or "llama3-8b-8192"
         "messages": [
             {"role": m["role"], "content": m["content"]} for m in st.session_state.messages
         ]
